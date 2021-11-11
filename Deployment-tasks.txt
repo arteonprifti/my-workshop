@@ -1,0 +1,41 @@
+Deployments
+
+1.
+How many PODs exist on the system?
+In the current(default) namespace.
+
+2.
+How many ReplicaSets exist on the system?
+In the current(default) namespace.
+
+3.
+How many Deployments exist on the system?
+In the current(default) namespace.
+
+4. 
+We just created a Deployment! Check again!
+        
+5. 
+How many ReplicaSets exist on the system now?
+
+6.
+How many PODs exist on the system now?
+
+7.
+Out of all the existing PODs, how many are ready?
+
+8.
+What is the image used to create the pods in the new deployment?
+
+9.
+Why do you think the deployment is not ready?
+
+10.
+Create a new Deployment using the deployment-definition-1.yaml 
+
+11.
+Create a new Deployment with the below attributes using your own deployment definition file.
+
+Name: httpd-frontend;
+Replicas: 3;
+Image: httpd:2.4-alpine

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: simple-chart-deploy
+  name: simple-chart-deploy
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: simple-chart-deploy
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: simple-chart-deploy
+    spec:
+      containers:
+      - image: {{ .Values.image.repository }} 
+        name: nginx

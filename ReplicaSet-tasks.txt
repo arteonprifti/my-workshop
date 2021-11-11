@@ -1,0 +1,40 @@
+ReplicaSet
+
+1. How many PODs exist on the system?
+In the current(default) namespace.
+
+2. How many ReplicaSets exist on the system?
+In the current(default) namespace.
+
+3. How about now? How many ReplicaSets do you see?
+        
+4. How many PODs are DESIRED in the new-replica-set?
+
+5. What is the image used to create the pods in the new-replica-set?
+
+6. How many PODs are READY in the new-replica-set?
+
+7. Why do you think the PODs are not ready?
+
+8. Delete any one of the 4 PODs.
+
+9. How many PODs exist now?
+
+10. Why are there still 4 PODs, even after you deleted one?
+
+11. Create a ReplicaSet using the replicaset-definition-1.yaml file.
+There is an issue with the file, so try to fix it.
+
+12. Fix the issue in the replicaset-definition-2.yaml file and create a ReplicaSet using it.
+        
+13. Delete the two newly created ReplicaSets - replicaset-1 and replicaset-2
+
+14. Fix the original replica set new-replica-set to use the correct busybox image.
+Either delete and recreate the ReplicaSet or Update the existing ReplicaSet and then delete all PODs, so new ones with the correct image will be created.
+
+15. Scale the ReplicaSet to 5 PODs.
+Use kubectl scale command or edit the replicaset using kubectl edit replicaset.
+
+16. Now scale the ReplicaSet down to 2 PODs.
+Use the kubectl scale command or edit the replicaset using kubectl edit replicaset.
+

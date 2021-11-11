@@ -1,0 +1,31 @@
+Pods:
+
+1. How many pods exist on the system?
+In the current(default) namespace.
+
+2. Create a new pod with the nginx image.
+
+3. How many pods are created now?
+
+4. What is the image used to create the new pods?
+
+5. Which nodes are these pods placed on?
+
+6. How many containers are part of the pod webapp?
+
+7. What images are used in the new webapp pod?
+
+8. What is the state of the container agentx in the pod webapp?  
+
+9. Why do you think the container agentx in pod webapp is in error?
+
+10. What does the READY column in the output of the kubectl get pods command indicate?
+
+11. Delete the webapp the nginx pod
+
+12. Create a new pod with the name redis and with the image redis123. Use a pod-definition YAML file.
+
+13. Now change the image on this pod to redis.
+  
+Use the kubectl edit command to update the image of the pod to redis.
+If you used a pod definition file, update the image from redis123 to redis in the file and then run kubectl apply.

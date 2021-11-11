@@ -1,0 +1,17 @@
+Namespaces
+
+1. How many Namespaces exist on the system?
+
+2. How many pods exist in the research namespace?
+
+3. Create a POD in the finance namespace.
+Name: redis
+Image Name: redis
+
+4. Which namespace has the blue pod in it?
+
+5. Open the blue application using the nodeport service  
+  
+5. What DNS name should the Blue application use to access the database 'db-service' 
+
+6. What DNS name should the Blue application use to access the database 'db-service' in the 'dev' namespace

@@ -1,0 +1,34 @@
+Services
+
+1. How many Services exist on the system?
+in the current(default) namespace
+
+2. What is the type of the default kubernetes service?
+
+3. What is the targetPort configured on the kubernetes service?
+
+4. How many labels are configured on the kubernetes service?
+
+5. How many Endpoints are attached on the kubernetes service?
+
+6. How many Deployments exist on the system now?
+in the current(default) namespace
+          
+7. What is the image used to create the pods in the deployment?
+
+8. Are you able to accesss the Web App UI?
+Try to access the Web Application UI using the tab simple-webapp-ui above the terminal.
+
+9. Create a new service to access the web application using the service-definition-1.yaml file
+Name: webapp-service
+Type: NodePort
+targetPort: 8080
+port: 8080
+nodePort: 30080
+selector: simple-webapp
+
+10. check the nodeport service
+
+11. Reload the page and check the name of the pod responding
+
+12. Create a loadbalancer service and try to access the app
